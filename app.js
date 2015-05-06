@@ -1,13 +1,22 @@
-import {Component, View, bootstrap} from 'angular2/angular2';
+import {Component, View, bootstrap, If} from "angular2/angular2";
+
 
 @Component({
-  selector: 'app'
+    selector: 'vegas-app'
 })
 @View({
-  template: '<h1>My First Angular 2 App</h1>'
+    template: `
+
+        <div>
+
+            <h1>Hello world</h1>
+
+        </div>
+
+    `
 })
-class App {
+class VegasApp{
 
 }
 
-bootstrap(App);
+bootstrap(VegasApp);
