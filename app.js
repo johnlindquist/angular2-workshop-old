@@ -1,4 +1,4 @@
-import {Component, View, bootstrap, If} from "angular2/angular2";
+import {Component, View, bootstrap} from "angular2/angular2";
 
 
 @Component({
@@ -6,13 +6,9 @@ import {Component, View, bootstrap, If} from "angular2/angular2";
 })
 @View({
     template: `
-
         <div>
-
             <h1>Hello world</h1>
-
         </div>
-
     `
 })
 class VegasApp{
